@@ -1,6 +1,6 @@
 ---
 - name: reboot module demo
-  hosts: all
+  hosts: 192.168.245.129
   become: true
   tasks:
     - name: reboot host(s)
